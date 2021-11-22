@@ -1,0 +1,11 @@
+<html>
+<body>
+<div id="jsonpdate">/api/jsonpdate : </div>
+<script>
+	function handleTime (data) {
+		console.log( '/api/jsonpdate : ' + data.date)
+	}
+</script>
+<script src='http://time.cybersecurity.seu.edu/api/jsonpdate?callback=handleTime'></script>
+</body>
+</html>
